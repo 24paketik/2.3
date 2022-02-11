@@ -2,11 +2,11 @@
 
 namespace MyHello
 {
-    internal class Program
+    internal class MyHello
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Привет "+args[0]);
         }
     }
 }
